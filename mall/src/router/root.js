@@ -1,5 +1,6 @@
 import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
+import React from "react";
 
 const Loading = <div className="{'bg-red-700'}">Loading....</div>;
 
